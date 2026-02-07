@@ -100,7 +100,7 @@ int main(int argc, char **argv) {
 
         char asset_id[64];
         if (parse_asset_id(line, asset_id, sizeof(asset_id)) != 0) {
-            printf("Failed to parse asset\n");  /* BUG: no asset ID in message */
+            printf("Failed to parse asset: %s", line);  /* BUG: no asset ID in message */
             continue;
         }
 
