@@ -80,8 +80,8 @@ int main(int argc, char **argv) {
 
     /* Validate config: batch_size must be positive */
     if (cfg.batch_size <= 0) {
-        printf("ERROR: Invalid batch_size %d\n", cfg.batch_size);
-        return 1;
+        cfg.batch_size = 10;
+        printf("WARNING: Invalid batch_size %d, using default 10\n", cfg.batch_size);
     }
 
     /* BUG: wrong conditional — should handle mode "debug" but logic is inverted */
