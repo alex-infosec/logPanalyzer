@@ -1,0 +1,7 @@
+[INFO] Starting asset_sync service
+[INFO] Config loaded: batch=10 timeout=30 mode=normal
+[INFO] Debug mode enabled
+[INFO] Processed asset ID001 (total=1)
+[INFO] Processed asset ID002 (total=2)
+Failed to parse asset
+[INFO] Processed asset ID004 (total=3)
