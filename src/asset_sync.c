@@ -85,7 +85,7 @@ int main(int argc, char **argv) {
     }
 
     /* BUG: wrong conditional — should handle mode "debug" but logic is inverted */
-    if (strcmp(cfg.mode, "debug") != 0) {
+    if (strcmp(cfg.mode, "debug") == 0) {
         printf("[INFO] Debug mode enabled\n");
     } else {
         printf("[INFO] Normal mode\n");
