@@ -1,3 +1,11 @@
 # Build artifacts
 bin/
 *.o
+
+# Interview prep (use ryder-systems-internship branch)
+technical-interview-answers-full.md
+interview-technical-dossier.md
+raytheon-blocks-2-3-answers.md
+raytheon-prep.md
+raytheon-questions.md
+ryder-prep.md
